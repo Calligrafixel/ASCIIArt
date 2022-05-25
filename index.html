@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        @font-face {
+            font-family: 'good';
+            src: url('vari.ttf') format('truetype');
+        }
+        body{
+            background: black;
+        }
+        container{
+            position: fixed;
+            top:40%; left: 50%;
+            
+            margin-left: -15rem;
+            
+            text-align: center;
+        }
+        #mainText{
+            font-size: 10rem;
+            color: white;
+            font-family: 'good';
+            
+            font-variation-settings: 'wght' 1000;
+            letter-spacing: 1rem;
+        }
+        
+    </style>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+    <container>
+         <div id="mainText">특이점</div>   
+    </container>
+</body>
+<script>
+    const _mainText = document.querySelector("#mainText");
+    document.addEventListener("mousemove", (e) => {
+        const mouseX = e.clientX;
+        _mainText.style.fontVariationSettings = "'wght'" + mouseX;
+    });
+</script>
+<script type="text/javascript">
+	document.oncontextmenu = function(){return false;}
+</script>
+</html>
