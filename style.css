@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+    font-size: .575rem;
+}
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: black;
+    position: absolute;
+}
+#container{
+    width: 800px; height: 1920px;
+    border: 1px solid red;
+    position: fixed;
+    left: 50%;
+    margin-left: -400px;
+}
+#poster{
+    line-height: 1;
+    font-family: 'D2Coding';
+    color: white;
+    font-size: .8rem;
+
+}
