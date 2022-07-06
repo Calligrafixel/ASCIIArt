@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    font-size: .575rem;
+    font-size: 1.1555805vw;
 }
 @font-face {
     font-family: 'D2Coding';
@@ -13,11 +13,8 @@ body {
     position: absolute;
 }
 #container{
-    width: 800px; height: 1920px;
-    border: 1px solid red;
+    width: 99.8vw; height: 200vh;
     position: fixed;
-    left: 50%;
-    margin-left: -400px;
 }
 #poster{
     line-height: 1;
