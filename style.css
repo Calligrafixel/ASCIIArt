@@ -1,10 +1,10 @@
 * {
     margin: 0 auto;
-    font-size: 1.1555805vw;
+    font-size: .325vh;
 }
 @font-face {
-    font-family: 'D2Coding';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-family: 'Galmuri7';
+    src: url("Galmuri7-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,12 +13,12 @@ body {
     position: absolute;
 }
 #container{
-    width: 99.8vw; height: 2000px;
+    width: 2160px; height: 3640px;
     position: fixed;
 }
-#poster{
+.poster{
     line-height: 1;
-    font-family: 'D2Coding';
+    font-family: 'Galmuri7';
     color: white;
     font-size: .8rem;
 
