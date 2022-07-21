@@ -13,7 +13,7 @@ body {
     position: absolute;
 }
 #container{
-    width: 99.8vw; height: 200vh;
+    width: 99.8vw; height: 2000px;
     position: fixed;
 }
 #poster{
