@@ -15,13 +15,17 @@ body {
 /*    width: 2160px; height: 3640px;*/
     position: fixed;
     left: calc(50vw - 28.148804vh);
+    text-align: center;
 }
 .poster{
     font-family: 'Galmuri7';
-    font-size: .26041vh;
     line-height: 1;
     color: white;
     opacity: 1;
-    
-/*    border: 1px solid red;*/
+    margin-bottom: 10vh;
 }
+.poster:nth-child(1){ font-size: calc(8 * .26041vh); }
+.poster:nth-child(2){ font-size: calc(4 * .26041vh); }
+.poster:nth-child(3){ font-size: calc(3 * .26041vh); }
+.poster:nth-child(4){ font-size: calc(2 * .26041vh); }
+.poster:nth-child(5){ font-size: calc(1 * .26041vh); }
